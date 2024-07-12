@@ -1,0 +1,49 @@
+/* style.css */
+
+*{
+    text-align: center;
+    font-family: Roboto Mono;
+}
+
+body {
+
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+}
+
+h1 {
+    color: #4CAF50;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+input[type="number"], button {
+    width: 15%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #4CAF50;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Impuestos de Steam</title>
+</head>
+<body>
+
+    <!-- IMPUESTOS EN DOLARES -->
+
+
+    <h1>Calculadora de Impuestos de Tiendas/Servicios en USD</h1>
+
+    <!--ICONOS DE TIENDAS EN USD-->
+    <i class="fab fa-steam"></i>
+    <i class="fab fa-google-play"></i>
+    <i class="fas fa-store"></i>
+
+
+    <p>Precio en USD:</p>
+    <div class="caja">
+        <input type="number" id="precioUSD" placeholder="Ingrese el precio en USD">
+        <button onclick="calcularImpuestoUSD()">Calcular</button>
+        <p id="resultadoUSD"></p>
+    </div>
+    
+
+   <!-- IMPUESTOS EN PESOS -->
+
+    <h1>Calculadora de Impuestos de Tiendas/Servicios en PESOS (ARS)</h1>
+
+    <!--ICONOS DE TIENDAS EN ARS-->
+    <i class="fab fa-spotify"></i>
+    <i class="fab fa-microsoft"></i>
+    <i class="fab fa-xbox"></i>
+
+
+    <p>Precio en Pesos (ARS):</p>
+    <div class="caja">
+        <input type="number" id="precioARS" placeholder="Ingrese el precio en ARS">
+        <button onclick="calcularImpuestoARS()">Calcular</button>
+        <p id="resultadoARS"></p>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
