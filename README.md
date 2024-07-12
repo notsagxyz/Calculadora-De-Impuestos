@@ -3,11 +3,13 @@
 
 ## **Estado del proyecto: FUNCIONAL**
                          
-Proyecto PERSONAL para calcular impuestos en tiendas ARS o USD pero que pueden surgir cambios a lo largo del tiempo.
+Proyecto PERSONAL para calcular impuestos en tiendas ARS o USD.
+
+Pueden surgir cambios de este proyecto a lo largo del tiempo.
 
 
 
-## **❓ Preguntas:**
+## **Preguntas:**
 
 **¿Como calcula las tiendas en dólares? 🛒**
 
