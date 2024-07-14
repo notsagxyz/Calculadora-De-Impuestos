@@ -22,7 +22,7 @@ function calcularImpuestoARS(){
         const precioARS = document.getElementById('precioARS').value; /* tomo el valor de dolar dado en el input del html */
 
             if (precioARS) {
-                const precioTotal = precioARS * 1.59; /*Calculo total con el impuesto que actualmente es del 59% en San Luis Villa Mercedes */
+                const precioTotal = precioARS * 1.59;
                 document.getElementById('resultadoARS').innerText = `El precio total en ARS con impuestos es: ${precioTotal.toFixed(2)} ARS`;
             } else {
                 document.getElementById('resultadoARS').innerText = 'Por favor, ingrese un precio en ARS.';
