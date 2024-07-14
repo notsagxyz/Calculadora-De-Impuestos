@@ -1,4 +1,4 @@
-
+![](https://github.com/ntsg-hub/Calculadora-De-Impuestos/blob/main/Imagen/BannerREADME.PNG)
 # **Probar [Calculadora de Impuestos](https://ntsg-hub.github.io/Calculadora-De-Impuestos/)**
 
 ## **Estado del proyecto: FUNCIONAL**
