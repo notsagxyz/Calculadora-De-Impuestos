@@ -1,7 +1,6 @@
 ![](https://github.com/ntsg-hub/Calculadora-De-Impuestos/blob/main/Imagen/BannerREADME.PNG)
 # **Probar [Calculadora de Impuestos](https://ntsg-hub.github.io/Calculadora-De-Impuestos/)**
 
-## **Estado del sitio web: 💀**
 ## **Estado del proyecto: FUNCIONAL**
                          
 Proyecto PERSONAL para calcular impuestos en tiendas ARS o USD.
