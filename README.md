@@ -23,7 +23,7 @@ La calculadora aplica el impuesto del 59% (puede variar ligeramente según la pr
 **Me cobraron un monto distinto en la tarjeta**
 
 La calculadora proporciona un precio final aproximado.   
-Tomamos el precio del dólar oficial al momento, pero algunos bancos pueden aplicar una cotización con un ajuste aproximado del +10%
+Se toma el precio del dólar oficial al momento a traves de dolarAPI, pero algunos bancos pueden aplicar una cotización con un ajuste aproximado del +10%
 
 
 ## **👩‍💻 Lenguajes utilizados**
