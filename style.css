@@ -17,7 +17,7 @@
 	border: 5px solid #0a4614;
 	opacity: 0;
 	box-shadow: 0 0 50px #0a4614, 0 0 10px #0a4614, 0 0 20px #0a4614;
-	animation: animate 4s linear infinite, ani-2 2s linear infinite;
+	animation: animate 4s linear infinite;
 }
 .round:nth-child(1) {
 	left: 5%;
@@ -73,14 +73,6 @@
 	}
 }
 
-@keyframes ani-2 {
-	0%, 100% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(2.5);
-	}
-}
 
 /* Final Background */
 
