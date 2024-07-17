@@ -44,7 +44,25 @@
 
     <p>Precio en USD:</p>
     <div class="caja">
-        <input type="number" id="precioUSD" placeholder="Ingrese el precio en USD">
+        <input type="number" id="precioUSD" placeholder="Ingrese el precio en USD"> <br>
+
+        <P>IIBB
+
+            <select id="provinciaUSD">
+                <option value="0.02">CABA - 2%</option>
+                <option value="0.02">Buenos Aires - 2%</option>
+                <option value="0.055">Chaco - 5.5%</option>
+                <option value="0.03">Córdoba - 3%</option>
+                <option value="0.01">La Pampa - 1%</option>
+                <option value="0.04">Neuquén - 4%</option>
+                <option value="0.05">Río Negro - 5%</option>
+                <option value="0.036">Salta - 3.6%</option>
+                <option value="0">Otra - 0%</option>
+            </select> 
+
+        </P>
+        
+
         <button onclick="calcularImpuestoUSD()">Calcular</button>
         <p id="resultadoUSD"></p>
     </div>
@@ -62,7 +80,26 @@
 
     <p>Precio en Pesos (ARS):</p>
     <div class="caja">
-        <input type="number" id="precioARS" placeholder="Ingrese el precio en ARS">
+        <input type="number" id="precioARS" placeholder="Ingrese el precio en ARS"> <br>
+
+        
+        <P>IIBB
+
+            <select id="provinciaARS">
+                <option value="0.02">CABA - 2%</option>
+                <option value="0.02">Buenos Aires - 2%</option>
+                <option value="0.055">Chaco - 5.5%</option>
+                <option value="0.03">Córdoba - 3%</option>
+                <option value="0.01">La Pampa - 1%</option>
+                <option value="0.04">Neuquén - 4%</option>
+                <option value="0.05">Río Negro - 5%</option>
+                <option value="0.036">Salta - 3.6%</option>
+                <option value="0">Otra - 0%</option>
+            </select> 
+
+        </P>
+        
+
         <button onclick="calcularImpuestoARS()">Calcular</button>
         <p id="resultadoARS"></p>
     </div>
