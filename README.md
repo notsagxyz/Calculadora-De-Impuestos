@@ -18,7 +18,7 @@ Al momento de comprar con tarjeta, nunca es el precio final que realmente te dic
 **¿Como calcula las tiendas en dólares?**
 
 Obtenemos el Tipo de Cambio utilizando la API de [DolarAPI](https://dolarapi.com/docs/) para obtener el tipo de cambio oficial USD a ARS.
-La calculadora aplica el impuesto del 59% (puede variar ligeramente según la provincia entre un 1~4%) y consigue el precio final.
+La calculadora aplica el impuesto del 59% y consigue el precio final.
 
 **Me cobraron un monto distinto en la tarjeta**
 
