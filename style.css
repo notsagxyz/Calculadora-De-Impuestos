@@ -136,6 +136,7 @@ body {
     overflow: hidden;
 }
 
+
 h1 {
     color: rgb(25, 190, 108);
     font-size: 24px;
@@ -146,8 +147,17 @@ p {
     color: #ccc;
 }
 
+
+select {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
 input[type="number"], button {
-    width: 15%;
+    width: 80%;
+	max-width: 300px;
     padding: 10px;
     margin: 10px 0;
     border: 2px solid #ccc;
