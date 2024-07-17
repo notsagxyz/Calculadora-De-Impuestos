@@ -84,8 +84,6 @@
 body {
     background: linear-gradient(to right, #1f2731, rgb(10, 53, 31)); 
     color: #fff;
-    margin: 0;
-    padding: 20px;
     align-items: center;
     overflow: hidden;
 }
